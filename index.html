@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" type="text/css">
     <title>Zach Pownell</title>
     <style>
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-            max-width: 300px;
+            max-width: 320px;
             margin: auto;
             text-align: center;
-            font-family: arial;
-            background: white;
+            font-family: 'Source Sans Pro', sans-serif;
+            background: #FFFFFF;
+        }
+
+        .name {
+            color: black;
+            font-size: 32px;
         }
 
         .title {
             color: grey;
-            font-size: 18px;
+            font-size: 22px;
+        }
+
+        .text {
+            color: black;
+            font-size: 17px;
         }
 
         .footer {
@@ -28,6 +40,8 @@
             background-color: #FFFFFF;
             color: black;
             text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 14px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -43,8 +57,9 @@
             display: inline-block;
             padding: 8px;
             color: white;
-            background-color: #000;
+            background-color: #0077B5;
             text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
             cursor: pointer;
             width: 100%;
             font-size: 18px;
@@ -57,29 +72,30 @@
         }
 
         button:hover, a:hover {
-            opacity: 0.7;
+            opacity: 0.95;
         }
     </style>
 </head>
-<body style="background-color:#EEEEEE">
+<body style="background-color:#eeeeee">
 <!--#35363A-->
 <!--#1E2124-->
 <!--<h2 style="text-align:center"> </h2>-->
 &nbsp;
 <div class="card">
-    <img src="/pfp-color.jpeg" alt="John" style="width:100%">
-    <h1>Zachary Pownell</h1>
+    <img src="/pfp.png" alt="John" style="width:100%">
+    <p class="name">Zach Pownell</p>
     <p class="title">Software Developer</p>
-    <p>CSU San Marcos</p>
-    <p><i>Computer Science, Mathematics</i></p>
+    <p class="text"><i class="fa fa-building"></i> General Atomics Aeronautical Systems<br>Poway, CA</p>
+    <p class="text"><i class="fa fa-school"></i> California State University, San Marcos<br>San Marcos, CA</p>
+    <p class="text"><i>BS, Computer Science<br>AA, Mathematics</i></p>
     <div style="margin: 24px 0;">
-        <a href="https://www.linkedin.com/in/zachpownell/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/zachpownell/"><i class="fa fa-linkedin"></i></a>&nbsp;
         <a href="https://github.com/zachpownell"><i class="fa fa-github"></i></a>
     </div>
-    <p><button>Contact</button></p>
+    <p><a href="https://www.linkedin.com/in/zachpownell/"><button>Contact</button></a></p>
 </div>
 <footer>
-    <div class="footer"><i>Created by Zach in 2022 using HTML, CSS.</i></div>
+    <div class="footer"><i>Created by Zach in 2022.</i></div>
 </footer>
 </body>
 </html>
